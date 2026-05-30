@@ -245,7 +245,8 @@ body::after {
 .row .field { flex: 1; }
 /* min-width:0 lets the dropdowns shrink instead of overflowing the card */
 .field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
-.field span {
+/* direct child only, so it doesn't bleed into a nested InfoTag tooltip */
+.field > span {
   font-family: var(--type);
   font-size: 0.78rem;
   letter-spacing: 0.5px;
@@ -283,6 +284,79 @@ body::after {
 .muted { font-family: var(--type); color: var(--ink-soft); font-size: 0.9rem; }
 .error { font-family: var(--type); color: #9b1c1c; font-size: 0.85rem; margin: 0; }
 .hint { font-family: var(--type); font-size: 0.75rem; color: var(--ink-soft); margin: 4px 0 0; }
+
+/* ---------------------------------------------------------------- info tag */
+.info {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+  margin-left: 7px;
+  cursor: help;
+  outline: none;
+}
+.info-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border: 1px solid var(--ink-soft);
+  color: var(--ink-soft);
+  background: var(--paper-white);
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+}
+.info.light .info-icon { border-color: var(--gold-soft); color: var(--gold-soft); background: transparent; }
+.info:hover .info-icon, .info:focus .info-icon { border-color: var(--maroon); color: var(--maroon); }
+.info.light:hover .info-icon, .info.light:focus .info-icon { border-color: #fff; color: #fff; }
+
+.info-bubble {
+  position: absolute;
+  top: calc(100% + 9px);
+  left: -8px;
+  width: max-content;
+  max-width: min(280px, 78vw);
+  background: #2c2420;
+  color: #f3ecd6;
+  font-family: Georgia, serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  padding: 11px 13px;
+  border-radius: 6px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px);
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  z-index: 60;
+  pointer-events: none;
+}
+.info-bubble::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 13px;
+  border: 6px solid transparent;
+  border-bottom-color: #2c2420;
+}
+.info.center .info-bubble { left: 50%; transform: translate(-50%, -4px); }
+.info.center .info-bubble::before { left: 50%; transform: translateX(-50%); }
+.info:hover .info-bubble, .info:focus .info-bubble {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.info.center:hover .info-bubble, .info.center:focus .info-bubble {
+  transform: translate(-50%, 0);
+}
 
 /* ---------------------------------------------------------------- mobile -- */
 @media (max-width: 600px) {

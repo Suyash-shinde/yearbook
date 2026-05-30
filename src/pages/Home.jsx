@@ -5,6 +5,7 @@ import { groupBySection } from "../lib/group";
 import { BATCH_LABEL } from "../config";
 import EntryCard from "../components/EntryCard";
 import DownloadPdfButton from "../components/DownloadPdfButton";
+import InfoTag from "../components/InfoTag";
 
 export default function Home() {
   const [entries, setEntries] = useState([]);
@@ -31,7 +32,15 @@ export default function Home() {
         <p className="cover-kicker">The Yearbook</p>
         <h1 className="cover-title">{BATCH_LABEL}</h1>
         <div className="cover-rule" />
-        <p className="cover-sub">A book of faces, names &amp; words to remember</p>
+        <p className="cover-sub">
+          A book of faces, names &amp; words to remember
+          <InfoTag center light>
+            A yearbook is a keepsake that gathers everyone in the batch — each
+            person's photo, name and a personal quote — so years from now you
+            can look back and remember these days together. Add your own entry,
+            then flip through your classmates'.
+          </InfoTag>
+        </p>
         <div className="hero-actions">
           <Link className="btn gold" to="/submit">
             Add my entry

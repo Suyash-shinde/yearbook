@@ -4,6 +4,7 @@ import SectionPicker from "../components/SectionPicker";
 import { DEPARTMENTS, MAX_ROLL } from "../config";
 import { validateImage, uploadPhoto } from "../lib/photos";
 import { submitEntry } from "../lib/entries";
+import InfoTag from "../components/InfoTag";
 
 export default function Submit() {
   const navigate = useNavigate();
@@ -78,7 +79,14 @@ export default function Submit() {
   return (
     <div className="page narrow">
       <Link className="back" to="/">← Back to yearbook</Link>
-      <h1 className="page-title">Add my entry</h1>
+      <h1 className="page-title">
+        Add my entry
+        <InfoTag>
+          Please add only <strong>your own</strong> photo, name and details —
+          not anyone else's. This is a shared book the whole batch can see, so
+          fill in just your own roll number.
+        </InfoTag>
+      </h1>
 
       <div className="paper">
       <form className="form" onSubmit={onSubmit}>
@@ -87,7 +95,7 @@ export default function Submit() {
           <input
             value={form.name}
             onChange={(e) => set("name", e.target.value)}
-            placeholder="e.g. Aisha Khan"
+            placeholder="e.g. Suyash Shinde"
             maxLength={60}
           />
         </label>
@@ -110,7 +118,15 @@ export default function Submit() {
         </label>
 
         <label className="field">
-          <span>Quote</span>
+          <span>
+            Quote
+            <InfoTag>
+              A short line that captures <em>you</em> — a motto you live by, an
+              inside joke, a favourite lyric, or a bit of advice for the future.
+              It's what classmates will remember you by. Keep it short and
+              personal.
+            </InfoTag>
+          </span>
           <textarea
             value={form.quote}
             onChange={(e) => set("quote", e.target.value)}
