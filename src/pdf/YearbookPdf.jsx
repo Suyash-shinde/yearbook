@@ -34,6 +34,12 @@ Font.register({
 });
 // Keep long quotes from awkwardly hyphenating.
 Font.registerHyphenationCallback((word) => [word]);
+// Regular .woff fonts have no color-emoji glyphs, so react-pdf renders tofu/boxes.
+// Swap emoji codepoints for Twemoji PNGs fetched at render time.
+Font.registerEmojiSource({
+  format: "png",
+  url: "https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/",
+});
 
 const SERIF = "Playfair Display";
 const TYPE = "Special Elite";
