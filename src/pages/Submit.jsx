@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import SectionPicker from "../components/SectionPicker";
-import { DEPARTMENTS, MAX_ROLL } from "../config";
+import { DEPARTMENTS, MAX_ROLL, isLocked } from "../config";
 import { validateImage, uploadPhoto } from "../lib/photos";
 import { submitEntry } from "../lib/entries";
 import InfoTag from "../components/InfoTag";
@@ -43,6 +43,9 @@ export default function Submit() {
     e.preventDefault();
     setError("");
 
+    if (isLocked())
+      return setError("Submissions have closed — the yearbook is now sealed.");
+
     const roll = Number(form.roll);
     if (!form.name.trim()) return setError("Please enter your name.");
     if (!Number.isInteger(roll) || roll < 1 || roll > MAX_ROLL)
@@ -74,6 +77,21 @@ export default function Submit() {
     } finally {
       setBusy(false);
     }
+  }
+
+  if (isLocked()) {
+    return (
+      <div className="page narrow">
+        <Link className="back" to="/">← Back to yearbook</Link>
+        <h1 className="page-title">Add my entry</h1>
+        <div className="paper">
+          <p className="muted">
+            The yearbook is sealed — entries closed on 10 June, 10:00 PM IST and
+            can no longer be added.
+          </p>
+        </div>
+      </div>
+    );
   }
 
   return (

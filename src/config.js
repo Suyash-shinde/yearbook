@@ -11,6 +11,15 @@ export const DEPARTMENTS = [
 export const MAX_ROLL = 80;
 export const BATCH_LABEL = "Batch of 2026";
 
+// Submissions and edits lock at this instant. Afterwards the yearbook is
+// sealed and permanent. Keep this in sync with public.yearbook_lock_at()
+// in supabase/setup.sql — that DB-side check is what actually enforces it.
+export const LOCK_AT = new Date("2026-06-10T22:00:00+05:30");
+
+export function isLocked(now = Date.now()) {
+  return now >= LOCK_AT.getTime();
+}
+
 // Flat list of every valid department+division pair, in display order.
 export const SECTIONS = DEPARTMENTS.flatMap((d) =>
   d.divisions.map((div) => ({

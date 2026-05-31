@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import SectionPicker from "../components/SectionPicker";
-import { DEPARTMENTS, MAX_ROLL } from "../config";
+import { DEPARTMENTS, MAX_ROLL, isLocked } from "../config";
 import { validateImage, uploadPhoto } from "../lib/photos";
 import { verifyAndLoad, updateEntry, deleteEntry } from "../lib/entries";
 
@@ -62,6 +62,10 @@ export default function Edit() {
   }
 
   async function onDelete() {
+    if (isLocked()) {
+      setError("Editing has closed — the yearbook is now sealed.");
+      return;
+    }
     if (
       !window.confirm(
         "Delete your entry permanently? This removes your photo and quote from the yearbook and can't be undone."
@@ -87,6 +91,8 @@ export default function Edit() {
   async function onSave(e) {
     e.preventDefault();
     setError("");
+    if (isLocked())
+      return setError("Editing has closed — the yearbook is now sealed.");
     setBusy(true);
     try {
       let imageUrl = entry.image_url;
@@ -111,6 +117,21 @@ export default function Edit() {
     } finally {
       setBusy(false);
     }
+  }
+
+  if (isLocked()) {
+    return (
+      <div className="page narrow">
+        <Link className="back" to="/">← Back to yearbook</Link>
+        <h1 className="page-title">Edit my entry</h1>
+        <div className="paper">
+          <p className="muted">
+            The yearbook is sealed — editing closed on 10 June, 10:00 PM IST.
+            Entries are now permanent.
+          </p>
+        </div>
+      </div>
+    );
   }
 
   return (

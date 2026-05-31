@@ -38,6 +38,24 @@ create or replace view public.public_entries as
 grant select on public.public_entries to anon, authenticated;
 
 -- ----------------------------------------------------------------------------
+-- Deadline. After this instant the yearbook is sealed: no inserts, updates or
+-- deletes are accepted. Keep in sync with LOCK_AT in src/config.js.
+-- ----------------------------------------------------------------------------
+create or replace function public.yearbook_lock_at() returns timestamptz
+language sql immutable as $$ select timestamptz '2026-06-10 22:00:00+05:30' $$;
+
+-- Raise if we're past the deadline. Called by every mutating function below.
+create or replace function public.assert_open() returns void
+language plpgsql as $$
+begin
+  if now() >= public.yearbook_lock_at() then
+    raise exception 'The yearbook is sealed; entries can no longer be changed.'
+      using errcode = 'P0001';
+  end if;
+end;
+$$;
+
+-- ----------------------------------------------------------------------------
 -- submit_entry: create a new entry, hashing the PIN. Runs as the table owner
 -- (security definer) so it can write even though the table is locked.
 -- ----------------------------------------------------------------------------
@@ -47,6 +65,7 @@ create or replace function public.submit_entry(
 ) returns void
 language plpgsql security definer set search_path = public, extensions as $$
 begin
+  perform public.assert_open();
   insert into public.entries
     (name, department, division, roll_number, quote, image_url, pin_hash)
   values
@@ -87,6 +106,7 @@ create or replace function public.update_entry(
 language plpgsql security definer set search_path = public, extensions as $$
 declare affected int;
 begin
+  perform public.assert_open();
   update public.entries e
     set quote = p_quote, image_url = p_image_url
   where e.department = p_department
@@ -107,6 +127,7 @@ create or replace function public.delete_entry(
 language plpgsql security definer set search_path = public, extensions as $$
 declare affected int;
 begin
+  perform public.assert_open();
   delete from public.entries e
   where e.department = p_department
     and e.division = p_division
