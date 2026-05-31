@@ -14,6 +14,8 @@ import { BATCH_LABEL } from "../config";
 import PlayfairRegular from "@fontsource/playfair-display/files/playfair-display-latin-400-normal.woff?url";
 import PlayfairBold from "@fontsource/playfair-display/files/playfair-display-latin-700-normal.woff?url";
 import SpecialElite from "@fontsource/special-elite/files/special-elite-latin-400-normal.woff?url";
+import GaramondRegular from "@fontsource/eb-garamond/files/eb-garamond-latin-400-normal.woff?url";
+import GaramondItalic from "@fontsource/eb-garamond/files/eb-garamond-latin-400-italic.woff?url";
 
 Font.register({
   family: "Playfair Display",
@@ -23,11 +25,19 @@ Font.register({
   ],
 });
 Font.register({ family: "Special Elite", src: SpecialElite });
+Font.register({
+  family: "EB Garamond",
+  fonts: [
+    { src: GaramondRegular, fontWeight: 400 },
+    { src: GaramondItalic, fontWeight: 400, fontStyle: "italic" },
+  ],
+});
 // Keep long quotes from awkwardly hyphenating.
 Font.registerHyphenationCallback((word) => [word]);
 
 const SERIF = "Playfair Display";
 const TYPE = "Special Elite";
+const QUOTE = "EB Garamond";
 const MAROON = "#4a1925";
 const GOLD = "#c2a14d";
 const CREAM = "#f1e8d0";
@@ -126,7 +136,7 @@ const s = StyleSheet.create({
   },
   name: { fontFamily: SERIF, fontWeight: 700, fontSize: 9, color: INK, textAlign: "center" },
   roll: { fontFamily: TYPE, fontSize: 7, color: "#6d6048", marginTop: 2 },
-  quote: { fontFamily: TYPE, fontSize: 6.5, color: "#4a3f33", textAlign: "center", marginTop: 3, lineHeight: 1.3 },
+  quote: { fontFamily: QUOTE, fontSize: 8.5, color: "#4a3f33", textAlign: "center", marginTop: 3, lineHeight: 1.35 },
 });
 
 export default function YearbookPdf({ sections, texture }) {

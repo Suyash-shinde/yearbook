@@ -13,6 +13,7 @@
 
   --serif: "Playfair Display", Georgia, "Times New Roman", serif;
   --type: "Special Elite", "Courier New", monospace;
+  --quote: "EB Garamond", Georgia, "Times New Roman", serif;
   --hand: "Caveat", cursive;
 }
 
@@ -222,12 +223,12 @@ body::after {
 .card-name { font-family: var(--serif); font-weight: 600; font-size: 1.05rem; line-height: 1.2; }
 .card-roll { font-family: var(--type); font-size: 0.72rem; color: var(--ink-soft); margin-top: 3px; }
 .card-quote {
-  font-family: var(--type);
-  font-size: 0.78rem;
+  font-family: var(--quote);
+  font-size: 1.02rem;
   color: #4a3f33;
   margin: 9px 0 0;
-  line-height: 1.4;
-  font-weight: 600;
+  line-height: 1.45;
+  font-weight: 400;
 }
 
 /* ---------------------------------------------------------------- forms --- */
