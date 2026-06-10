@@ -176,12 +176,21 @@ body::after {
   line-height: 1.5;
   color: rgba(216, 190, 126, 0.7);
 }
+.countdown-notice {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: center;
+}
 .countdown.sealed .countdown-lead {
   font-family: var(--serif);
   font-size: 1.3rem;
   letter-spacing: 1px;
   text-transform: none;
   color: #f2e3b8;
+}
+.countdown.closed .countdown-lead {
+  color: rgba(216, 190, 126, 0.85);
 }
 
 /* ---------------------------------------------------------------- buttons - */

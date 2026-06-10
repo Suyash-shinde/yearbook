@@ -38,16 +38,25 @@ create or replace view public.public_entries as
 grant select on public.public_entries to anon, authenticated;
 
 -- ----------------------------------------------------------------------------
--- Deadline. After this instant the yearbook is sealed: no inserts, updates or
--- deletes are accepted. Keep in sync with LOCK_AT in src/config.js.
+-- Submission window. Submissions reopen at yearbook_open_at() and seal for good
+-- at yearbook_lock_at(): outside that window no inserts, updates or deletes are
+-- accepted. Keep in sync with OPEN_AT / LOCK_AT in src/config.js.
 -- ----------------------------------------------------------------------------
-create or replace function public.yearbook_lock_at() returns timestamptz
-language sql immutable as $$ select timestamptz '2026-06-10 22:00:00+05:30' $$;
+create or replace function public.yearbook_open_at() returns timestamptz
+language sql immutable as $$ select timestamptz '2026-06-11 16:30:00+05:30' $$;
 
--- Raise if we're past the deadline. Called by every mutating function below.
+create or replace function public.yearbook_lock_at() returns timestamptz
+language sql immutable as $$ select timestamptz '2026-06-12 22:00:00+05:30' $$;
+
+-- Raise if we're outside the submission window. Called by every mutating
+-- function below.
 create or replace function public.assert_open() returns void
 language plpgsql as $$
 begin
+  if now() < public.yearbook_open_at() then
+    raise exception 'Submissions are closed; they reopen on 11 June, 4:30 PM IST.'
+      using errcode = 'P0001';
+  end if;
   if now() >= public.yearbook_lock_at() then
     raise exception 'The yearbook is sealed; entries can no longer be changed.'
       using errcode = 'P0001';

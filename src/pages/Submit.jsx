@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import SectionPicker from "../components/SectionPicker";
-import { DEPARTMENTS, MAX_ROLL, isLocked } from "../config";
+import { DEPARTMENTS, MAX_ROLL, isLocked, isBeforeOpen, REOPEN_NOTICE } from "../config";
 import { validateImage, uploadPhoto } from "../lib/photos";
 import { submitEntry } from "../lib/entries";
 import InfoTag from "../components/InfoTag";
@@ -85,10 +85,18 @@ export default function Submit() {
         <Link className="back" to="/">← Back to yearbook</Link>
         <h1 className="page-title">Add my entry</h1>
         <div className="paper">
-          <p className="muted">
-            The yearbook is sealed — entries closed on 10 June, 10:00 PM IST and
-            can no longer be added.
-          </p>
+          {isBeforeOpen() ? (
+            REOPEN_NOTICE.map((line) => (
+              <p className="muted" key={line}>
+                {line}
+              </p>
+            ))
+          ) : (
+            <p className="muted">
+              The yearbook is sealed — entries closed on 12 June, 10:00 PM IST
+              and can no longer be added.
+            </p>
+          )}
         </div>
       </div>
     );
