@@ -16,7 +16,7 @@ export const BATCH_LABEL = "Batch of 2026";
 // these in sync with public.yearbook_open_at() / public.yearbook_lock_at() in
 // supabase/setup.sql — that DB-side check is what actually enforces it.
 export const OPEN_AT = new Date("2026-06-11T16:30:00+05:30");
-export const LOCK_AT = new Date("2026-06-12T22:00:00+05:30");
+export const LOCK_AT = new Date("2026-06-15T22:00:00+05:30");
 
 // Shown while submissions are temporarily closed before they reopen.
 export const REOPEN_NOTICE = [
