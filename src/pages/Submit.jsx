@@ -93,7 +93,7 @@ export default function Submit() {
             ))
           ) : (
             <p className="muted">
-              The yearbook is sealed — entries closed on 12 June, 10:00 PM IST
+              The yearbook is sealed — entries closed on 15 June, 10:00 PM IST
               and can no longer be added.
             </p>
           )}

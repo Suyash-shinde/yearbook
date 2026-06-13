@@ -133,7 +133,7 @@ export default function Edit() {
             ))
           ) : (
             <p className="muted">
-              The yearbook is sealed — editing closed on 12 June, 10:00 PM IST.
+              The yearbook is sealed — editing closed on 15 June, 10:00 PM IST.
               Entries are now permanent.
             </p>
           )}

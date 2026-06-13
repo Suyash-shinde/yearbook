@@ -46,7 +46,7 @@ create or replace function public.yearbook_open_at() returns timestamptz
 language sql immutable as $$ select timestamptz '2026-06-11 16:30:00+05:30' $$;
 
 create or replace function public.yearbook_lock_at() returns timestamptz
-language sql immutable as $$ select timestamptz '2026-06-12 22:00:00+05:30' $$;
+language sql immutable as $$ select timestamptz '2026-06-15 22:00:00+05:30' $$;
 
 -- Raise if we're outside the submission window. Called by every mutating
 -- function below.
