@@ -20,6 +20,9 @@ import GaramondItalic from "@fontsource/eb-garamond/files/eb-garamond-latin-400-
 // non-Latin name/quote falls back to this. Add more Noto scripts the same way.
 import NotoDevanagariRegular from "@fontsource/noto-sans-devanagari/files/noto-sans-devanagari-devanagari-400-normal.woff?url";
 import NotoDevanagariBold from "@fontsource/noto-sans-devanagari/files/noto-sans-devanagari-devanagari-700-normal.woff?url";
+// Misc symbols that aren't emoji and so never get the Twemoji swap — e.g. the
+// card-suit hearts ♡/♥ (U+2661/U+2665). The latin fonts lack these glyphs.
+import NotoSymbols from "@fontsource/noto-sans-symbols-2/files/noto-sans-symbols-2-symbols-400-normal.woff?url";
 
 Font.register({
   family: "Playfair Display",
@@ -29,6 +32,7 @@ Font.register({
   ],
 });
 Font.register({ family: "Special Elite", src: SpecialElite });
+Font.register({ family: "Noto Sans Symbols", src: NotoSymbols });
 Font.register({
   family: "Noto Sans Devanagari",
   fonts: [
@@ -65,11 +69,13 @@ Font.registerEmojiSource({
 });
 
 const DEVANAGARI = "Noto Sans Devanagari";
-// User-supplied names/quotes may be in Devanagari; list it as a per-glyph
-// fallback so non-Latin characters don't render as empty boxes.
-const SERIF = ["Playfair Display", DEVANAGARI];
+const SYMBOLS = "Noto Sans Symbols";
+// User-supplied names/quotes may include Devanagari or stray symbols (e.g. ♡);
+// list these as per-glyph fallbacks so non-Latin characters don't render as
+// empty boxes.
+const SERIF = ["Playfair Display", DEVANAGARI, SYMBOLS];
 const TYPE = "Special Elite";
-const QUOTE = ["EB Garamond", DEVANAGARI];
+const QUOTE = ["EB Garamond", DEVANAGARI, SYMBOLS];
 const MAROON = "#4a1925";
 const GOLD = "#c2a14d";
 const CREAM = "#f1e8d0";
