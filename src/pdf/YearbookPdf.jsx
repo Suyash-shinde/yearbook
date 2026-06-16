@@ -16,6 +16,10 @@ import PlayfairBold from "@fontsource/playfair-display/files/playfair-display-la
 import SpecialElite from "@fontsource/special-elite/files/special-elite-latin-400-normal.woff?url";
 import GaramondRegular from "@fontsource/eb-garamond/files/eb-garamond-latin-400-normal.woff?url";
 import GaramondItalic from "@fontsource/eb-garamond/files/eb-garamond-latin-400-italic.woff?url";
+// Devanagari (Hindi/Marathi) glyphs — the latin fonts above have none, so any
+// non-Latin name/quote falls back to this. Add more Noto scripts the same way.
+import NotoDevanagariRegular from "@fontsource/noto-sans-devanagari/files/noto-sans-devanagari-devanagari-400-normal.woff?url";
+import NotoDevanagariBold from "@fontsource/noto-sans-devanagari/files/noto-sans-devanagari-devanagari-700-normal.woff?url";
 
 Font.register({
   family: "Playfair Display",
@@ -25,6 +29,13 @@ Font.register({
   ],
 });
 Font.register({ family: "Special Elite", src: SpecialElite });
+Font.register({
+  family: "Noto Sans Devanagari",
+  fonts: [
+    { src: NotoDevanagariRegular, fontWeight: 400 },
+    { src: NotoDevanagariBold, fontWeight: 700 },
+  ],
+});
 Font.register({
   family: "EB Garamond",
   fonts: [
@@ -36,14 +47,29 @@ Font.register({
 Font.registerHyphenationCallback((word) => [word]);
 // Regular .woff fonts have no color-emoji glyphs, so react-pdf renders tofu/boxes.
 // Swap emoji codepoints for Twemoji PNGs fetched at render time.
+//
+// react-pdf strips the U+FE0F variation selector from every codepoint, but
+// Twemoji's filenames only strip it when the emoji has NO zero-width joiner
+// (U+200D). So ❤️ must lose its fe0f (file 2764.png) while 🏳️‍🌈 must keep it
+// (1f3f3-fe0f-200d-1f308.png). A static url can't satisfy both, so we register
+// withVariationSelectors and replicate Twemoji's own rule in a builder.
+const TWEMOJI_BASE = "https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/";
 Font.registerEmojiSource({
-  format: "png",
-  url: "https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/",
+  withVariationSelectors: true,
+  builder: (code) => {
+    const file = code.includes("200d")
+      ? code
+      : code.replace(/-?fe0f/g, "");
+    return `${TWEMOJI_BASE}${file}.png`;
+  },
 });
 
-const SERIF = "Playfair Display";
+const DEVANAGARI = "Noto Sans Devanagari";
+// User-supplied names/quotes may be in Devanagari; list it as a per-glyph
+// fallback so non-Latin characters don't render as empty boxes.
+const SERIF = ["Playfair Display", DEVANAGARI];
 const TYPE = "Special Elite";
-const QUOTE = "EB Garamond";
+const QUOTE = ["EB Garamond", DEVANAGARI];
 const MAROON = "#4a1925";
 const GOLD = "#c2a14d";
 const CREAM = "#f1e8d0";
