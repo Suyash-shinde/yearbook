@@ -1,0 +1,1012 @@
+[
+  {
+    "id": "59a431e0-41e2-48ca-b9c6-5989fe7540b9",
+    "name": "Sneha Adhalrao",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 1,
+    "quote": "Be delusional, the plan unfolds right on time......!",
+    "image_url": "/photos/Computer-B__1-1781535225414.jpg",
+    "created_at": "2026-06-15T14:52:39.166271+00:00"
+  },
+  {
+    "id": "a27ebc6e-e1a5-4917-a50d-c2063c2747b4",
+    "name": "Ansh Agarwal",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 2,
+    "quote": "Solving puzzles crafted by nature",
+    "image_url": "/photos/Computer-A__2-1781707395040.jpg",
+    "created_at": "2026-06-17T14:43:16.420585+00:00"
+  },
+  {
+    "id": "cb4efa4b-b2d9-420c-9fb8-1a9845e883d7",
+    "name": "Mrunali Bawane",
+    "department": "Computer",
+    "division": "C",
+    "roll_number": 3,
+    "quote": "Forever grateful, forever growing.",
+    "image_url": "/photos/Computer-C__3-1781330352002.jpg",
+    "created_at": "2026-06-13T05:59:13.249107+00:00"
+  },
+  {
+    "id": "9682f24d-8d06-458a-bb6e-af3c3ac27727",
+    "name": "Sumit Bhise",
+    "department": "Computer",
+    "division": "C",
+    "roll_number": 4,
+    "quote": "Confident enough to smile through every challenge.",
+    "image_url": "/photos/Computer-C__4-1780210916258.jpg",
+    "created_at": "2026-05-31T07:01:57.071352+00:00"
+  },
+  {
+    "id": "482592ca-5550-4c14-a45c-2480cb85d3fd",
+    "name": "Alisha Borde",
+    "department": "Computer",
+    "division": "C",
+    "roll_number": 5,
+    "quote": "Never write quotes in your yearbook. Because in 20 years you’ll look back and say, “man was I an idiot\".",
+    "image_url": "/photos/Computer-C__5-1781074384734.jpg",
+    "created_at": "2026-06-10T06:31:50.039558+00:00"
+  },
+  {
+    "id": "5cfe5c72-e575-4a00-9b84-08ef9f834114",
+    "name": "Ankush Babar",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 6,
+    "quote": "Always be confident.",
+    "image_url": "/photos/Computer-A__6-1781449123733.jpg",
+    "created_at": "2026-06-10T08:12:24.095214+00:00"
+  },
+  {
+    "id": "922e3817-5ec6-4d9e-8692-e148f4cee987",
+    "name": "Shravani Chavan",
+    "department": "Computer",
+    "division": "C",
+    "roll_number": 6,
+    "quote": "Some things are better understood in silence.",
+    "image_url": "/photos/Computer-C__6-1780212158136.jpg",
+    "created_at": "2026-05-31T06:51:00.40364+00:00"
+  },
+  {
+    "id": "ecdca624-bcd1-41e0-8054-f29750b08214",
+    "name": "Mohit Choudhari",
+    "department": "Computer",
+    "division": "C",
+    "roll_number": 7,
+    "quote": "Sometimes you will never know the value of a moment until it becomes a memory",
+    "image_url": "/photos/Computer-C__7-1781510175262.jpg",
+    "created_at": "2026-06-15T07:49:20.438796+00:00"
+  },
+  {
+    "id": "c8da57ae-506f-480f-8954-e2ecf43c6d22",
+    "name": "Yogita Bagul",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 7,
+    "quote": "Born to shine, learning to fly 💜✨",
+    "image_url": "/photos/Computer-A__7-1780207560462.jpg",
+    "created_at": "2026-05-31T06:06:02.971833+00:00"
+  },
+  {
+    "id": "116ce449-9bc4-4088-ab65-cc7ce12a6ddd",
+    "name": "Atharv Bhagwat",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 8,
+    "quote": "हमारे बाद  महफ़िल में अफ़्साने बयाँ होंगे\nबहारें हम को ढूँढेंगी न जाने हम कहाँ होंगे",
+    "image_url": "/photos/Computer-B__8-1781273804639.jpg",
+    "created_at": "2026-06-12T14:16:46.759996+00:00"
+  },
+  {
+    "id": "ebbcc7b4-5983-4de4-996e-a60eaaa2de1c",
+    "name": "Sujal Bondarde",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 8,
+    "quote": "Always Trying To Do Better 😮‍💨🥱.....",
+    "image_url": "/photos/Computer-A__8-1781097403236.jpg",
+    "created_at": "2026-06-10T13:16:46.071708+00:00"
+  },
+  {
+    "id": "fa5d5321-4ec3-4cbb-9e9d-3136efc8b120",
+    "name": "Shreyash Borge",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 9,
+    "quote": "Better an imperfect purpose than perfect nihilism",
+    "image_url": "/photos/Computer-A__9-1781098838067.jpg",
+    "created_at": "2026-06-10T13:40:40.783485+00:00"
+  },
+  {
+    "id": "1c4f7c93-7b2f-41c3-b011-67f4d1424718",
+    "name": "Himanshu Chougule",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 10,
+    "quote": "If Plan A fails, remember there are 25 more letters.\nNot done yet !",
+    "image_url": "/photos/Computer-A__10-1781095973556.jpg",
+    "created_at": "2026-06-10T12:52:55.188945+00:00"
+  },
+  {
+    "id": "1fd1a5bb-046a-43dc-9125-5a1f4d46df62",
+    "name": "Yash Bhoite",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 11,
+    "quote": "The chapter ends, the story doesn't",
+    "image_url": "/photos/Computer-B__11-1781511425444.jpg",
+    "created_at": "2026-06-15T08:17:07.130957+00:00"
+  },
+  {
+    "id": "bb560ab6-f150-4ad2-aedf-b4e726d9dc7e",
+    "name": "Bhargav Dave",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 11,
+    "quote": "Here's to 4 years of graduation that felt like one long vacation worth enjoying. 👋🏻❤️",
+    "image_url": "/photos/Computer-A__11-1780221685548.jpg",
+    "created_at": "2026-05-31T10:01:28.032247+00:00"
+  },
+  {
+    "id": "88163fbf-e778-4aae-9414-3ce4f1fe7a15",
+    "name": "Poorva Desarda",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 12,
+    "quote": "Life can only be understood backwards; but it must be lived forwards",
+    "image_url": "/photos/Computer-A__12-1781707471290.jpg",
+    "created_at": "2026-06-17T14:44:32.365552+00:00"
+  },
+  {
+    "id": "3dd3b7ce-1df6-47f5-8f0d-063a539e4630",
+    "name": "Swanand Buchake",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 12,
+    "quote": "Never loose SPIRIT ....!!!!",
+    "image_url": "/photos/Computer-B__12-1781537467215.jpg",
+    "created_at": "2026-06-15T15:31:09.281279+00:00"
+  },
+  {
+    "id": "3c2ced45-1f10-43b3-af18-bccce5b7180a",
+    "name": "Aum Dhavale",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 13,
+    "quote": "Whenever I'm about to do something, I think \nWould an idiot do that ? and if they would, I do not do that thing.\n- Dwight Schrute \n              - Aum Dhavale",
+    "image_url": "/photos/Computer-A__13-1780770945563.jpg",
+    "created_at": "2026-06-06T18:35:47.372968+00:00"
+  },
+  {
+    "id": "6d477475-f9d6-4b18-ae10-64a8a8746bf1",
+    "name": "Ayush Golait",
+    "department": "Computer",
+    "division": "C",
+    "roll_number": 13,
+    "quote": "Every ending marks a new beginning; today we close one and prepare for the next.",
+    "image_url": "/photos/Computer-C__13-1781185933024.jpg",
+    "created_at": "2026-06-11T13:52:14.938811+00:00"
+  },
+  {
+    "id": "305a3fef-93d8-4753-9cc8-6a8970561bf4",
+    "name": "Esha Chavan",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 14,
+    "quote": "Somehow the plot keeps getting better♡",
+    "image_url": "/photos/Computer-B__14-1780197842240.jpg",
+    "created_at": "2026-05-31T03:22:11.413288+00:00"
+  },
+  {
+    "id": "b73097e1-0e38-49e4-9bbe-f878ded90cb5",
+    "name": "Ayush Hinge",
+    "department": "IT",
+    "division": "A",
+    "roll_number": 17,
+    "quote": "📸 Clicked pictures, gathered memories, made friends, enjoyed the journey. ✨",
+    "image_url": "/photos/IT-A__17-1781076543979.jpg",
+    "created_at": "2026-06-10T07:29:08.954472+00:00"
+  },
+  {
+    "id": "4263fcb6-99cc-4587-945c-88bff4a60b00",
+    "name": "Shringaar Kiran",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 18,
+    "quote": "So be you.",
+    "image_url": "/photos/Computer-A__18-1781101783721.jpg",
+    "created_at": "2026-06-10T14:29:47.306315+00:00"
+  },
+  {
+    "id": "41cd0cff-a8bd-427c-8c0d-370ead47f3c9",
+    "name": "Damayanti Kale",
+    "department": "Computer",
+    "division": "C",
+    "roll_number": 19,
+    "quote": "Leaving with a heart full of memories and a future full of possibilities",
+    "image_url": "/photos/Computer-C__19-1781352152652.jpg",
+    "created_at": "2026-06-13T12:02:35.514458+00:00"
+  },
+  {
+    "id": "513efe5d-3082-4b4d-82b2-5556e88e933f",
+    "name": "Rohit Dhamdhere",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 19,
+    "quote": "Some things are worth the wait.",
+    "image_url": "/photos/Computer-B__19-1780245686347.jpg",
+    "created_at": "2026-05-31T16:41:27.371326+00:00"
+  },
+  {
+    "id": "dd7b38be-7498-46d9-ab2c-0a0858d513ef",
+    "name": "Om Gujar",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 20,
+    "quote": "Thank me for meeting you",
+    "image_url": "/photos/Computer-A__20-1781107807430.jpg",
+    "created_at": "2026-06-10T16:10:09.071772+00:00"
+  },
+  {
+    "id": "685df69c-826d-49fd-a9ff-5598f15ea513",
+    "name": "Pranay Dhanve",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 20,
+    "quote": "Laugh it off.....Unbothered",
+    "image_url": "/photos/Computer-B__20-1781536161028.jpg",
+    "created_at": "2026-06-15T15:05:11.9352+00:00"
+  },
+  {
+    "id": "f5971c34-c636-4690-b5a0-686a9967cb11",
+    "name": "Sainath Kale",
+    "department": "Computer",
+    "division": "C",
+    "roll_number": 20,
+    "quote": "Built in silence, ready to make noise.",
+    "image_url": "/photos/Computer-C__20-1780642570000.jpg",
+    "created_at": "2026-06-05T06:46:33.561548+00:00"
+  },
+  {
+    "id": "5900c215-4b39-4064-a0b7-68281e6197cd",
+    "name": "Aarya Jadhav",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 23,
+    "quote": "Grateful for the moments, ready for what's next.",
+    "image_url": "/photos/Computer-A__23-1781097816059.jpg",
+    "created_at": "2026-06-10T13:23:38.928871+00:00"
+  },
+  {
+    "id": "a22e8a1c-b12a-482c-8b91-84bf25a5ca2f",
+    "name": "Pranav Kakde",
+    "department": "IT",
+    "division": "A",
+    "roll_number": 23,
+    "quote": "Chill maadi.. Everything is falling into place.",
+    "image_url": "/photos/IT-A__23-1780595185700.jpg",
+    "created_at": "2026-06-04T17:46:26.65725+00:00"
+  },
+  {
+    "id": "f489df80-ff38-4bf4-b3b4-9ddec00e8e48",
+    "name": "Shruti Jadhav",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 25,
+    "quote": "Quietly learning, genuinely caring, and leaving behind memories worth keeping✨",
+    "image_url": "/photos/Computer-A__25-1781096322084.jpg",
+    "created_at": "2026-06-10T12:58:44.287358+00:00"
+  },
+  {
+    "id": "4a8a10b4-cf5c-4c10-92a3-01260352c234",
+    "name": "Shravay Nandkishor Gaikwad",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 25,
+    "quote": "BAKI BATEIN PEENE BAAD",
+    "image_url": "/photos/Computer-B__25-1780215981322.jpg",
+    "created_at": "2026-05-31T08:26:26.094003+00:00"
+  },
+  {
+    "id": "48e3da16-a1a3-4111-8f7e-d811b20741d0",
+    "name": "Aniket Gawali",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 26,
+    "quote": "Always heard,\n\" Time changes \" 💯\nNow I realize it does.",
+    "image_url": "/photos/Computer-B__26-1781411439644.jpg",
+    "created_at": "2026-06-14T04:30:42.259001+00:00"
+  },
+  {
+    "id": "c9eaf559-1fd7-473c-87ad-155f3adfb0ed",
+    "name": "Anand Jain",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 27,
+    "quote": "Everything becomes possible when you start moving towards it or if you're Anand Jain😎",
+    "image_url": "/photos/Computer-A__27-1780205887016.jpg",
+    "created_at": "2026-05-31T05:38:09.652893+00:00"
+  },
+  {
+    "id": "2c91bdfa-eb86-4f82-9f1d-e7e6cb739d7a",
+    "name": "Ritesh Kolte",
+    "department": "Computer",
+    "division": "C",
+    "roll_number": 27,
+    "quote": "Did way cooler shit than this.",
+    "image_url": "/photos/Computer-C__27-1781108602863.jpg",
+    "created_at": "2026-06-10T16:23:25.242063+00:00"
+  },
+  {
+    "id": "1bd80031-6e5a-44ce-8669-572e04a8cd1b",
+    "name": "Ansh Jannawar",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 29,
+    "quote": "खुद मुस्कुराता हूँ, औरों को भी हँसाता हूँ, ज़िंदगी मिली है तो हर पल खुशी से बिताता हूँ. 😊",
+    "image_url": "/photos/Computer-B__29-1781277975858.jpg",
+    "created_at": "2026-06-12T15:26:54.595643+00:00"
+  },
+  {
+    "id": "70da64de-7dcb-4711-9fee-bc799025e013",
+    "name": "Anurag Kale",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 30,
+    "quote": "Bespoke, precious",
+    "image_url": "/photos/Computer-A__30-1781538743020.jpg",
+    "created_at": "2026-06-15T15:52:26.775915+00:00"
+  },
+  {
+    "id": "824ad90b-ee4a-4402-b412-6b92cad3012f",
+    "name": "Sahil Kale",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 31,
+    "quote": "Life is short. Drive fast and leave a sexy corpse. That’s one of my mottos.",
+    "image_url": "/photos/Computer-A__31-1781251507857.jpg",
+    "created_at": "2026-06-12T08:01:52.623197+00:00"
+  },
+  {
+    "id": "4e910584-4a20-4b33-bb52-dc5ed6587734",
+    "name": "SHREYASH NITIN KUNJIR",
+    "department": "IT",
+    "division": "A",
+    "roll_number": 32,
+    "quote": "Never Stop Being Wild😜",
+    "image_url": "/photos/IT-A__32-1780210366659.jpg",
+    "created_at": "2026-05-31T06:52:48.036295+00:00"
+  },
+  {
+    "id": "35bc66cd-db0f-4d91-8246-fe80fec0ee31",
+    "name": "Onkar Kapse",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 32,
+    "quote": "If you are flexible in multitasking, \nCongrats! You are an Engineer 😉💖",
+    "image_url": "/photos/Computer-A__32-1781271480698.jpg",
+    "created_at": "2026-06-12T12:59:42.777877+00:00"
+  },
+  {
+    "id": "f86916f8-1cfe-4671-8371-a68e207f8b8b",
+    "name": "Sahish Kate",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 32,
+    "quote": "This page ends. The plot doesn’t.",
+    "image_url": "/photos/Computer-B__32-1781107326138.jpg",
+    "created_at": "2026-06-10T16:02:09.553107+00:00"
+  },
+  {
+    "id": "ac45c519-43e7-4053-83bc-3485fb0f471f",
+    "name": "Shashank Khengre",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 34,
+    "quote": "Thappad Se Darr Nahi Lagta Sahab Pyaar Se Lagta Hai.",
+    "image_url": "/photos/Computer-B__34-1781099261393.jpg",
+    "created_at": "2026-06-10T13:47:42.877603+00:00"
+  },
+  {
+    "id": "b8bb8ba2-4ee4-4b3e-9ed9-f88fe7438177",
+    "name": "Anand More",
+    "department": "Computer",
+    "division": "C",
+    "roll_number": 34,
+    "quote": "I was busy chasing what's next. Memory was busy saving what mattered.",
+    "image_url": "/photos/Computer-C__34-1780239235220.jpg",
+    "created_at": "2026-05-31T14:54:20.247838+00:00"
+  },
+  {
+    "id": "916c65b0-eb2a-48ea-bcd4-df7d996b8f1f",
+    "name": "Dharmeshkumar Khairnar",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 35,
+    "quote": "The universe delivered more than I asked for ✨",
+    "image_url": "/photos/Computer-A__35-1781108669452.jpg",
+    "created_at": "2026-06-10T16:24:31.340744+00:00"
+  },
+  {
+    "id": "792a3106-335b-426b-83c5-8e1d5f7a0dcf",
+    "name": "Siddhi Kul",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 35,
+    "quote": "Fierce. Free. Flourishing.",
+    "image_url": "/photos/Computer-B__35-1781270261465.jpg",
+    "created_at": "2026-06-12T13:17:42.72049+00:00"
+  },
+  {
+    "id": "7c008169-3ec2-45a5-a830-b0bfc9c6daf2",
+    "name": "Soham Kokane",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 36,
+    "quote": "From 'Hello World' to 'World, Here I Come!",
+    "image_url": "/photos/Computer-A__36-1781106599034.jpg",
+    "created_at": "2026-06-10T15:40:00.533216+00:00"
+  },
+  {
+    "id": "055732dd-6813-41a7-b4ca-4b66ce982f81",
+    "name": "Pranav Nebhnani",
+    "department": "Computer",
+    "division": "C",
+    "roll_number": 38,
+    "quote": "From CodeCraft to TEDx, every stage taught a lesson!",
+    "image_url": "/photos/Computer-C__38-1781097135903.jpg",
+    "created_at": "2026-06-10T13:12:29.460291+00:00"
+  },
+  {
+    "id": "d1ad1021-6f76-41e9-8be6-07042fe971e2",
+    "name": "Sayali Metkar",
+    "department": "IT",
+    "division": "A",
+    "roll_number": 38,
+    "quote": "Socha tha zindagi set ho jayegi, zindagi ne bola 'plot twist'",
+    "image_url": "/photos/IT-A__38-1781255227797.jpg",
+    "created_at": "2026-06-12T09:07:11.816506+00:00"
+  },
+  {
+    "id": "b3af49fc-8de2-4dd6-ba61-2cba6c8b321e",
+    "name": "Advait Mandhare",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 39,
+    "quote": "One chapter ends and the story continues..",
+    "image_url": "/photos/Computer-A__39-1781097436165.jpg",
+    "created_at": "2026-05-31T08:32:54.547522+00:00"
+  },
+  {
+    "id": "fc636c1c-1c2c-43b1-b6bf-805ff04625cf",
+    "name": "Aditya More",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 40,
+    "quote": "The best part of this journey was the people I shared it with",
+    "image_url": "/photos/Computer-A__40-1780209687290.jpg",
+    "created_at": "2026-05-31T06:41:28.121622+00:00"
+  },
+  {
+    "id": "5969acd8-8332-4637-abce-41d354f575f1",
+    "name": "Amey Mule",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 40,
+    "quote": "यादों का कारवां ...",
+    "image_url": "/photos/Computer-B__40-1781100566229.jpg",
+    "created_at": "2026-06-10T14:09:26.507788+00:00"
+  },
+  {
+    "id": "548fea4b-facb-440a-83d8-5446d099df6d",
+    "name": "Omkar Panchal",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 41,
+    "quote": "\"Not chasing success—building a legacy.\"",
+    "image_url": "/photos/Computer-B__41-1781083226773.jpg",
+    "created_at": "2026-06-10T09:20:30.619771+00:00"
+  },
+  {
+    "id": "6e7688d2-4659-4856-a125-ef1238094fd1",
+    "name": "Sayyoni Parate",
+    "department": "Computer",
+    "division": "C",
+    "roll_number": 41,
+    "quote": "Life is a test, but I didn't study!",
+    "image_url": "/photos/Computer-C__41-1781204029669.jpg",
+    "created_at": "2026-06-11T18:53:50.199002+00:00"
+  },
+  {
+    "id": "991e06f6-5750-4279-b63c-8383eb696b21",
+    "name": "Aditya Patil",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 42,
+    "quote": "Mischief managed",
+    "image_url": "/photos/Computer-B__42-1781108233045.jpg",
+    "created_at": "2026-06-10T16:17:13.91299+00:00"
+  },
+  {
+    "id": "db83b5d9-1a17-4c60-a82b-b939fd1e8425",
+    "name": "Shubham Nagare",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 42,
+    "quote": "The next adventure awaits.",
+    "image_url": "/photos/Computer-A__42-1781518460850.jpg",
+    "created_at": "2026-06-15T10:14:23.896982+00:00"
+  },
+  {
+    "id": "7bb525a1-06a8-4057-9567-251c96d1bfe4",
+    "name": "Aditya Pardeshi",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 43,
+    "quote": "Secret guy 😶‍🌫️",
+    "image_url": "/photos/Computer-A__43-1781107170594.jpg",
+    "created_at": "2026-06-10T15:59:36.22616+00:00"
+  },
+  {
+    "id": "eaa946e4-1d82-48eb-99f2-43dc3e2bf225",
+    "name": "Nick",
+    "department": "IT",
+    "division": "A",
+    "roll_number": 43,
+    "quote": "Always be the ShowStopper in ur Life",
+    "image_url": "/photos/IT-A__43-1780237564905.jpg",
+    "created_at": "2026-05-31T14:26:06.904811+00:00"
+  },
+  {
+    "id": "91c2e82e-6a68-4289-ad33-07c91981d7fd",
+    "name": "Anuj Patil",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 43,
+    "quote": "It is hard to turn the page when you know  someone won’t be in next chapter \n\nBut the story must go on.",
+    "image_url": "/photos/Computer-B__43-1781534916424.jpg",
+    "created_at": "2026-06-15T14:48:38.35948+00:00"
+  },
+  {
+    "id": "64902843-c873-4db2-acc1-a2f5f4e9f0c5",
+    "name": "Vedant Patil.",
+    "department": "Computer",
+    "division": "C",
+    "roll_number": 44,
+    "quote": "Fail early, Fail better 🚀",
+    "image_url": "/photos/Computer-C__44-1780210743927.jpg",
+    "created_at": "2026-05-31T06:59:03.571628+00:00"
+  },
+  {
+    "id": "776211f5-9075-4f02-953d-99642b43d0c6",
+    "name": "Samruddhi Patil",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 44,
+    "quote": "New journey, New adventures ,old dreams..now closer than ever😌",
+    "image_url": "/photos/Computer-B__44-1781539799460.jpg",
+    "created_at": "2026-06-15T16:10:01.438944+00:00"
+  },
+  {
+    "id": "af72b736-f256-48f1-8cd0-f13e496ee866",
+    "name": "Shravanii",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 45,
+    "quote": "Chaos",
+    "image_url": "/photos/Computer-B__45-1780216930501.jpg",
+    "created_at": "2026-05-31T08:42:13.459063+00:00"
+  },
+  {
+    "id": "8f5dbf81-4d65-4300-930e-bc0593847ac9",
+    "name": "Kushal Patil",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 45,
+    "quote": "The real treasure was friends who shared notes and assignments along the way.",
+    "image_url": "/photos/Computer-A__45-1781106554958.jpg",
+    "created_at": "2026-06-10T15:49:18.016433+00:00"
+  },
+  {
+    "id": "a5ab0d12-3ff9-49f9-adcd-33c6f67caa91",
+    "name": "Rajesh Patil",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 46,
+    "quote": "Hum hain rahi pyaar ke, phir milenge chalte chalte...",
+    "image_url": "/photos/Computer-A__46-1780209590505.jpg",
+    "created_at": "2026-05-31T06:39:51.617229+00:00"
+  },
+  {
+    "id": "cf5f22bc-c35a-4f79-813f-e8f2b64e072e",
+    "name": "Vaibhav Patil",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 47,
+    "quote": "If our paths cross again, let's make time for a quick hello.",
+    "image_url": "/photos/Computer-A__47-1781103914447.jpg",
+    "created_at": "2026-06-10T15:05:14.535127+00:00"
+  },
+  {
+    "id": "60216afa-612c-4aa8-a89a-5ef22d9deded",
+    "name": "Vedant Patil",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 48,
+    "quote": "\"One day, we'll realize that the ordinary moments were the ones that mattered most\"",
+    "image_url": "/photos/Computer-A__48-1781106994606.jpg",
+    "created_at": "2026-06-10T15:56:35.615488+00:00"
+  },
+  {
+    "id": "ba45ee00-c3c4-4b83-b47b-8ea7c664fd9c",
+    "name": "Salman Saudagar",
+    "department": "Computer",
+    "division": "C",
+    "roll_number": 48,
+    "quote": "It wasn’t about the score, it was about the innings we played together 🏏",
+    "image_url": "/photos/Computer-C__48-1780216416809.jpg",
+    "created_at": "2026-05-31T08:33:40.266758+00:00"
+  },
+  {
+    "id": "944bbd8b-dee3-463d-b500-a17497464ae1",
+    "name": "Atharva Pawar",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 49,
+    "quote": "Some endings become your favorite memories.",
+    "image_url": "/photos/Computer-A__49-1780208871288.jpg",
+    "created_at": "2026-05-31T06:27:55.702596+00:00"
+  },
+  {
+    "id": "27946122-020e-4a80-8981-854c4989a2a1",
+    "name": "Om Keshav Potpallewar",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 50,
+    "quote": "The greatest thing I earned in college was becoming Veeru of my Jay",
+    "image_url": "/photos/Computer-A__50-1781707433167.jpg",
+    "created_at": "2026-06-17T14:43:55.099344+00:00"
+  },
+  {
+    "id": "e61acb7b-5074-459e-a74b-c8708f72f1ab",
+    "name": "Sinchan Rao",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 51,
+    "quote": "In case I don't see ya, good afternoon, good evening, and good night!",
+    "image_url": "/photos/Computer-A__51-1780949480346.jpg",
+    "created_at": "2026-06-08T20:11:22.640298+00:00"
+  },
+  {
+    "id": "e14f8ddc-5556-4e23-b6ed-0c3d89060d57",
+    "name": "Sejal Rathod",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 52,
+    "quote": "This journey wasn't just about earning an engineering degree it was about learning to believe in myself, even on the days it felt hardest ✨",
+    "image_url": "/photos/Computer-A__52-1781507087559.jpg",
+    "created_at": "2026-06-15T07:04:50.127955+00:00"
+  },
+  {
+    "id": "40da6f2b-8bd0-4030-ab1e-74cc450fc60c",
+    "name": "Atharva Shete",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 52,
+    "quote": "Efforts Never Death…End!!!",
+    "image_url": "/photos/Computer-B__52-1781188300970.jpg",
+    "created_at": "2026-06-11T14:31:43.17579+00:00"
+  },
+  {
+    "id": "26ae3cd6-0e7d-44d8-9aae-b028e998f7a1",
+    "name": "Om Shinde",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 53,
+    "quote": "The journey changes, the mission doesn't.",
+    "image_url": "/photos/Computer-B__53-1781108978101.jpg",
+    "created_at": "2026-06-10T16:29:40.290547+00:00"
+  },
+  {
+    "id": "38c881e0-2a7d-4864-b850-f4dd25bc9488",
+    "name": "Anurag Raut",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 53,
+    "quote": "Don't cry because it's over, smile because it happened.",
+    "image_url": "/photos/Computer-A__53-1781104856173.jpg",
+    "created_at": "2026-06-10T15:20:55.559423+00:00"
+  },
+  {
+    "id": "c47c45f8-7059-4787-8827-28f364f3f944",
+    "name": "Kiran Raut",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 54,
+    "quote": "Forever greaful.\nCollege gave me the best people for life. ❤️",
+    "image_url": "/photos/Computer-A__54-1781232896328.jpg",
+    "created_at": "2026-06-12T02:54:58.933922+00:00"
+  },
+  {
+    "id": "cdc2a52f-ad07-48f5-8413-da9902ba05f3",
+    "name": "Abhishek Sabale",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 56,
+    "quote": "The best chapters haven't been written yet, stay tuned 🗿...",
+    "image_url": "/photos/Computer-A__56-1781084140507.jpg",
+    "created_at": "2026-06-10T09:35:43.618311+00:00"
+  },
+  {
+    "id": "1a5216fb-7b0e-4604-bd83-a6045af9277b",
+    "name": "Shreyash Shelke",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 57,
+    "quote": "Life is Enjoy",
+    "image_url": "/photos/Computer-A__57-1781208172919.jpg",
+    "created_at": "2026-06-11T20:02:53.800393+00:00"
+  },
+  {
+    "id": "c3a7b2f3-dbf1-48a2-9de1-92f9052ac0cd",
+    "name": "Chaitanya Suryawanshi",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 57,
+    "quote": "We came as strangers, we leave as memories..",
+    "image_url": "/photos/Computer-B__57-1781186854643.jpg",
+    "created_at": "2026-06-10T15:58:35.344376+00:00"
+  },
+  {
+    "id": "9690af7e-3fe5-43d3-ae41-fbad9119a9cd",
+    "name": "Dowa Tandekar",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 58,
+    "quote": "Blooming at my own pace🤍🌸",
+    "image_url": "/photos/Computer-B__58-1781254337773.jpg",
+    "created_at": "2026-06-12T08:52:30.986094+00:00"
+  },
+  {
+    "id": "dd90c56e-a2f1-4981-b8b4-6d029aa17fe8",
+    "name": "Sakshi Shinde",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 58,
+    "quote": "Still becoming, \ndreaming as always, \ngrateful beyond words!!! ✨️",
+    "image_url": "/photos/Computer-A__58-1781210172962.jpg",
+    "created_at": "2026-06-11T20:36:15.508521+00:00"
+  },
+  {
+    "id": "f906ce2f-3ea7-40f0-bc5d-df07d05253ab",
+    "name": "Sidharth Sinhasane",
+    "department": "Computer",
+    "division": "C",
+    "roll_number": 58,
+    "quote": "Stay humble stay curious",
+    "image_url": "/photos/Computer-C__58-1780247346730.jpg",
+    "created_at": "2026-05-31T17:09:08.746835+00:00"
+  },
+  {
+    "id": "aac20bc0-cfbe-459a-9de0-bb6972ad6784",
+    "name": "Yash Thakare",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 59,
+    "quote": "Never date a girl from your college.",
+    "image_url": "/photos/Computer-B__59-1781200531691.jpg",
+    "created_at": "2026-06-11T17:55:35.301499+00:00"
+  },
+  {
+    "id": "46915504-65a2-42b4-ba17-6b585e595b25",
+    "name": "Sidh Jain",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 60,
+    "quote": "Insert nonchalant quote",
+    "image_url": "/photos/Computer-A__60-1780203909114.jpg",
+    "created_at": "2026-05-31T05:05:10.323612+00:00"
+  },
+  {
+    "id": "d3c66942-3700-4269-9aba-59a4876d1195",
+    "name": "Tejasvi Tikoo",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 60,
+    "quote": "Vienna waits for you 🌷✨️",
+    "image_url": "/photos/Computer-B__60-1780848759003.jpg",
+    "created_at": "2026-06-07T16:07:28.541729+00:00"
+  },
+  {
+    "id": "5d954df9-d862-41b7-ae5e-55f779a5870a",
+    "name": "Suyash Wagade",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 61,
+    "quote": "\"Not all bugs were fixed, but the journey was worth it 🫠\"",
+    "image_url": "/photos/Computer-B__61-1781254001217.jpg",
+    "created_at": "2026-06-12T08:46:41.552575+00:00"
+  },
+  {
+    "id": "e2ba2baa-b861-44ef-b270-a0692f865d76",
+    "name": "Harshad Solanki",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 61,
+    "quote": "I wish there was a way to know you're in the good old days before you've actually left them.",
+    "image_url": "/photos/Computer-A__61-1780424880971.jpg",
+    "created_at": "2026-06-02T18:28:04.695551+00:00"
+  },
+  {
+    "id": "15d8ce0a-6a4b-4fb7-ba11-96294d28200e",
+    "name": "Prathamesh Walekar",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 62,
+    "quote": "Love thy automobiles",
+    "image_url": "/photos/Computer-B__62-1781085519512.jpg",
+    "created_at": "2026-06-10T09:58:41.542294+00:00"
+  },
+  {
+    "id": "06949f5d-9d13-4bb3-aab8-a35a8784c1e5",
+    "name": "Prathmesh Vharkal",
+    "department": "Computer",
+    "division": "C",
+    "roll_number": 62,
+    "quote": "Nobody can play your role better than yourself.",
+    "image_url": "/photos/Computer-C__62-1780210551615.jpg",
+    "created_at": "2026-05-31T06:51:20.531104+00:00"
+  },
+  {
+    "id": "6047ce30-418d-405f-8ee4-920fda6504af",
+    "name": "Suyash Shinde",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 63,
+    "quote": "Shit happens, stay silly.",
+    "image_url": "/photos/Computer-A__63-1780173136466.jpg",
+    "created_at": "2026-05-30T20:32:17.98305+00:00"
+  },
+  {
+    "id": "e87d17db-783e-4929-9c5b-57c13c559e51",
+    "name": "Pradnesh Tilekar",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 64,
+    "quote": "All Izz Well...!",
+    "image_url": "/photos/Computer-A__64-1780210049241.jpg",
+    "created_at": "2026-05-31T06:42:45.576792+00:00"
+  },
+  {
+    "id": "7bdbe769-4730-415a-99c2-053c46afdd42",
+    "name": "Sumit Varpe",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 65,
+    "quote": "A Wild rollercoaster. Worth every turn..🌟",
+    "image_url": "/photos/Computer-A__65-1781201492313.jpg",
+    "created_at": "2026-06-11T18:11:35.17462+00:00"
+  },
+  {
+    "id": "dbd85490-c59e-4d10-985f-26cf5982a584",
+    "name": "Tanay Naphade",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 66,
+    "quote": "When opportunity knocks, open the door. When it doesn't — create your own shot.",
+    "image_url": "/photos/Computer-B__66-1781255606528.jpg",
+    "created_at": "2026-06-12T09:08:54.092994+00:00"
+  },
+  {
+    "id": "4b2621f9-f41e-4537-8db9-229df2a28583",
+    "name": "Chinmay Wadhe",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 66,
+    "quote": "Had 4 yrs to think of a quote. Procrastinated on that too.",
+    "image_url": "/photos/Computer-A__66-1780198494880.jpg",
+    "created_at": "2026-05-31T03:34:56.341489+00:00"
+  },
+  {
+    "id": "47d307ae-fb21-4661-96f1-c7e3ddb28abd",
+    "name": "Yash Wagh",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 67,
+    "quote": "Best time of life. Best people. Best memories. Forever grateful. ✨",
+    "image_url": "/photos/Computer-A__67-1781330339398.jpg",
+    "created_at": "2026-06-13T05:59:01.914781+00:00"
+  },
+  {
+    "id": "c3775f9f-455b-477f-9dc4-3981831bfd85",
+    "name": "Rohini Pawar",
+    "department": "Computer",
+    "division": "C",
+    "roll_number": 68,
+    "quote": "I don't mind changing my opinions when I discover a better way of thinking.",
+    "image_url": "/photos/Computer-C__68-1781280877102.jpg",
+    "created_at": "2026-06-12T16:14:38.929079+00:00"
+  },
+  {
+    "id": "795fde96-691d-44f4-b100-ba6722d125f5",
+    "name": "Kamlesh Pawar",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 69,
+    "quote": "Just a simple person with big dreams...",
+    "image_url": "/photos/Computer-B__69-1781180736240.jpg",
+    "created_at": "2026-06-11T12:25:39.004552+00:00"
+  },
+  {
+    "id": "d068e935-dac6-4442-809c-552e3934aaa1",
+    "name": "Abhijit Arote",
+    "department": "IT",
+    "division": "A",
+    "roll_number": 70,
+    "quote": "We started as strangers sharing a classroom and ended as friends sharing memories.",
+    "image_url": "/photos/IT-A__70-1780244205310.jpg",
+    "created_at": "2026-05-31T16:16:48.099305+00:00"
+  },
+  {
+    "id": "14ef6ff9-a03e-4d74-bb91-097fbfae81c8",
+    "name": "Nibodh Daware",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 71,
+    "quote": "Don't let the kid you die",
+    "image_url": "/photos/Computer-A__71-1781192961352.jpg",
+    "created_at": "2026-06-11T15:49:24.555968+00:00"
+  },
+  {
+    "id": "ba185d24-92a5-4b6f-8868-6a002b4493a0",
+    "name": "Arati Shriram",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 73,
+    "quote": "\"Simple at heart, ambitious in dreams.💫\"",
+    "image_url": "/photos/Computer-B__73-1781253396213.jpg",
+    "created_at": "2026-06-12T08:35:09.532164+00:00"
+  },
+  {
+    "id": "4ff54a2c-530b-4ddb-8028-f8f05b624cb3",
+    "name": "Omkar Dabade",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 74,
+    "quote": "In the end, Love was enough...",
+    "image_url": "/photos/Computer-A__74-1781194976204.jpg",
+    "created_at": "2026-06-11T15:51:08.746922+00:00"
+  },
+  {
+    "id": "8a62518b-b83c-41b8-bee5-a125fb5c75a0",
+    "name": "Gayatri Vasekar",
+    "department": "Computer",
+    "division": "B",
+    "roll_number": 74,
+    "quote": "Simply ,me✨🫶🏻",
+    "image_url": "/photos/Computer-B__74-1781237574559.jpg",
+    "created_at": "2026-06-12T04:12:57.355439+00:00"
+  },
+  {
+    "id": "5aa5f4cc-56a5-42e2-aa49-4f505ba4828b",
+    "name": "CHAITRALI PANDE",
+    "department": "Computer",
+    "division": "C",
+    "roll_number": 75,
+    "quote": "Meri awaaz hi pehchaan hai ✨",
+    "image_url": "/photos/Computer-C__75-1781347626284.jpg",
+    "created_at": "2026-06-13T10:41:10.096387+00:00"
+  },
+  {
+    "id": "e0461eb5-f26f-47c5-b802-77324776d015",
+    "name": "Jay Lokhande",
+    "department": "Computer",
+    "division": "A",
+    "roll_number": 76,
+    "quote": "\"Wear a smile,  that never goes out of style. \"",
+    "image_url": "/photos/Computer-A__76-1781200225462.jpg",
+    "created_at": "2026-06-11T17:50:28.286089+00:00"
+  }
+]
