@@ -1,19 +1,15 @@
-import { useCallback, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 import { fetchEntries } from "../lib/entries";
 import { groupBySection } from "../lib/group";
-import { BATCH_LABEL, isLocked } from "../config";
+import { BATCH_LABEL } from "../config";
 import EntryCard from "../components/EntryCard";
 import DownloadPdfButton from "../components/DownloadPdfButton";
 import InfoTag from "../components/InfoTag";
-import Countdown from "../components/Countdown";
 
 export default function Home() {
   const [entries, setEntries] = useState([]);
   const [status, setStatus] = useState("loading");
   const [error, setError] = useState("");
-  const [locked, setLocked] = useState(isLocked);
-  const onLock = useCallback(() => setLocked(true), []);
 
   useEffect(() => {
     fetchEntries()
@@ -44,18 +40,7 @@ export default function Home() {
             then flip through your classmates'.
           </InfoTag>
         </p>
-        <Countdown onLock={onLock} />
         <div className="hero-actions">
-          {!locked && (
-            <>
-              <Link className="btn gold" to="/submit">
-                Add my entry
-              </Link>
-              <Link className="btn" to="/edit">
-                Edit my entry
-              </Link>
-            </>
-          )}
           <DownloadPdfButton entries={entries} />
         </div>
       </header>

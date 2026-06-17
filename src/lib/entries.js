@@ -1,14 +1,11 @@
 import { supabase } from "../supabaseClient";
+import staticEntries from "../data/entries.json";
 
-// Reads come from the "public_entries" view, which excludes the pin hash.
+// The yearbook is frozen and read-only: entries (and their photos) are baked
+// into the build by scripts/export-static.mjs, so reads are served by the
+// static host instead of Supabase — no database queries, no Storage egress.
 export async function fetchEntries() {
-  const { data, error } = await supabase
-    .from("public_entries")
-    .select("*")
-    .order("roll_number", { ascending: true });
-
-  if (error) throw new Error(error.message);
-  return data ?? [];
+  return staticEntries;
 }
 
 // Create a new entry. The PIN is hashed inside the database function;
